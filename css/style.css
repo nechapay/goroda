@@ -19,7 +19,7 @@ body {
 .title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-size: 7vh;
+    font-size: 4vh;
     font-family: DINpro, serif;
     text-shadow: 2px 2px 2px #FFF;
 }
@@ -75,4 +75,48 @@ body {
 .fade-enter, .fade-leave-to {
     opacity: 0;
     transition: opacity .5s ease-out;
+}
+
+.de {
+  fill:url(#imageDE) 
+}
+
+.fin {
+  fill: url(#imageFIN)
+}
+
+.sve {
+  fill: url(#imageSVE)
+}
+
+.jp {
+  fill: url(#imageJP)
+}
+
+.mon {
+    fill: url(#imageMON)
+}
+
+.tur {
+  fill: url(#imageTUR)
+}
+
+.pl {
+  fill: url(#imagePL)
+}
+
+.tank1 {
+  fill: url(#imageTank1)
+}
+
+.tank2 {
+  fill: url(#imageTank2)
+}
+
+.tank3 {
+  fill: url(#imageTank3)
+}
+
+.tank4 {
+  fill: url(#imageTank4)
 }
