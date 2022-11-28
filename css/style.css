@@ -105,8 +105,64 @@ body {
   fill: url(#imagePL)
 }
 
+.hero1 {
+  fill: url(#imageHero1)
+}
+
+.hero2 {
+  fill: url(#imageHero2)
+}
+
+.hero3 {
+  fill: url(#imageHero3)
+}
+
+.hero4 {
+  fill: url(#imageHero4)
+}
+
+.hero5 {
+  fill: url(#imageHero5)
+}
+
+.hero6 {
+  fill: url(#imageHero6)
+}
+
+.hero7 {
+  fill: url(#imageHero7)
+}
+
 .tank1 {
   fill: url(#imageTank1)
+}
+
+.glory1 {
+  fill: url(#imageGlory1)
+}
+
+.glory2 {
+  fill: url(#imageGlory2)
+}
+
+.glory3 {
+  fill: url(#imageGlory3)
+}
+
+.glory4 {
+  fill: url(#imageGlory4)
+}
+
+.glory5 {
+  fill: url(#imageGlory5)
+}
+
+.glory6 {
+  fill: url(#imageGlory6)
+}
+
+.glory7 {
+  fill: url(#imageGlory7)
 }
 
 .tank2 {

@@ -20,13 +20,61 @@ const HomePage = {
     '   inkscape:version="0.92.3 (unknown)"\n' +
     '   sodipodi:docname="map.svg">\n' +
     '  <defs id="defs2">' +
-    '    <pattern id="imageHero1" x="70" y="35" height="128" width="128"\n' +
+    '    <pattern id="imageHero1" x="-1" y="1" height="8" width="8"\n' +
     '             patternUnits="userSpaceOnUse">\n' +
-    '      <image x="0" y="0" width="64" height="64" xlink:href="./img/hero.jpg"></image>\n' +
+    '      <image x="0" y="0" width="8" height="8" xlink:href="./img/hero.jpg"></image>\n' +
     '    </pattern>' +
-    '    <pattern id="imageSlava1" x="70" y="35" height="128" width="128"\n' +
+    '    <pattern id="imageHero2" x="10" y="1" height="16" width="16"\n' +
     '             patternUnits="userSpaceOnUse">\n' +
-    '      <image x="0" y="0" width="64" height="64" xlink:href="./img/slava.jpg"></image>\n' +
+    '      <image x="0" y="0" width="12" height="12" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageHero3" x="-6" y="5" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="12" height="12" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageHero4" x="8" y="0" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="12" height="12" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageHero5" x="-2" y="8" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="14" height="14" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageHero6" x="-2" y="0" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="14" height="14" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageHero7" x="1" y="4" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/hero.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory1" x="2" y="-5" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory2" x="4" y="-2" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory3" x="0" y="1" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory4" x="0" y="4" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory5" x="0" y="-2" height="12" width="12"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="12" height="12" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory6" x="0" y="2" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
+    '    </pattern>' +
+    '    <pattern id="imageGlory7" x="0" y="5" height="16" width="16"\n' +
+    '             patternUnits="userSpaceOnUse">\n' +
+    '      <image x="0" y="0" width="16" height="16" xlink:href="./img/glory.jpg"></image>\n' +
     '    </pattern>' +
     '    <pattern id="imageTank1" x="27" y="7" height="64" width="64"\n' +
     '             patternUnits="userSpaceOnUse">\n' +
@@ -91,98 +139,98 @@ const HomePage = {
     '     cx="19"\n' +
     '     cy="199"\n' +
     '     r="3"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero1"' +
     '     @click="handleClick(\'place1\')"/>\n' +
     '  <circle\n' +
     '     id="place2"\n' +
     '     cx="160"\n' +
     '     cy="71"\n' +
     '     r="6"' +
-    '     class="interacted"' +
+    '     class="interacted hero2"' +
     '     @click="handleClick(\'place2\')"/>\n' +
     '  <circle\n' +
     '     id="place3"\n' +
     '     cx="16"\n' +
     '     cy="188"\n' +
     '     r="5"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero3"' +
     '     @click="handleClick(\'place3\')"/>\n' +
     '  <circle\n' +
     '     id="place4"\n' +
     '     cx="78"\n' +
     '     cy="152"\n' +
     '     r="5"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero4"' +
     '     @click="handleClick(\'place4\')"/>\n' +
     '  <circle\n' +
     '     id="place5"\n' +
     '     cx="69"\n' +
     '     cy="128"\n' +
     '     r="6"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero5"' +
     '     @click="handleClick(\'place5\')"/>\n' +
     '  <circle\n' +
     '     id="place6"\n' +
     '     cx="69"\n' +
     '     cy="200"\n' +
     '     r="7"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero6"' +
     '     @click="handleClick(\'place6\')"/>\n' +
     '  <circle\n' +
     '     id="place7"\n' +
     '     cx="89"\n' +
     '     cy="141"\n' +
     '     r="8"\n' +
-    '     class="interacted"' +
+    '     class="interacted hero7"' +
     '     @click="handleClick(\'place7\')"/>\n' +
     '  <circle\n' +
     '     id="place8"\n' +
     '     cx="53"\n' +
     '     cy="162"\n' +
     '     r="5"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory1"' +
     '     @click="handleClick(\'place8\')"/>\n' +
     '  <circle\n' +
     '     id="place9"\n' +
     '     cx="78"\n' +
     '     cy="102"\n' +
     '     r="6"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory2"' +
     '     @click="handleClick(\'place9\')"/>\n' +
     '  <circle\n' +
     '     id="place10"\n' +
     '     cx="150"\n' +
     '     cy="105"\n' +
     '     r="7"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory3"' +
     '     @click="handleClick(\'place10\')"/>\n' +
     '  <circle\n' +
     '     id="place11"\n' +
     '     cx="82"\n' +
     '     cy="126"\n' +
     '     r="4"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory4"' +
     '     @click="handleClick(\'place11\')"/>\n' +
     '  <circle\n' +
     '     id="place12"\n' +
     '     cx="21"\n' +
     '     cy="207"\n' +
     '     r="3"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory5"' +
     '     @click="handleClick(\'place12\')"/>\n' +
     '  <circle\n' +
     '     id="place13"\n' +
     '     cx="67"\n' +
     '     cy="170"\n' +
     '     r="5"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory6"' +
     '     @click="handleClick(\'place13\')"/>\n' +
     '  <circle\n' +
     '     id="place14"\n' +
     '     cx="71"\n' +
     '     cy="142"\n' +
     '     r="4"\n' +
-    '     class="interacted"' +
+    '     class="interacted glory7"' +
     '     @click="handleClick(\'place14\')"/>\n' +
     '  <circle\n' +
     '     id="place15"\n' +
